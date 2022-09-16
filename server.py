@@ -17,7 +17,7 @@ app= Flask(__name__)
 
 @app.route('/')
 def hello_world():	
-  return render_template("main.html")	
+  return render_template("index.html")	
 
 @app.route('/map/<alarm>')
 def map(alarm):
